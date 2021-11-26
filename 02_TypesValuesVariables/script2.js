@@ -70,3 +70,4 @@ b[0] = 1;
 let c = [1];
 console.log(`a === b is ${a === b}`);
 console.log(`b == c is ${b == c}`);
+

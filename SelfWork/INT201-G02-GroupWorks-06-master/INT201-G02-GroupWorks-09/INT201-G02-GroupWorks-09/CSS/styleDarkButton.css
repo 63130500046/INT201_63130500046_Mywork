@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Assistant:400,700|Playfair+Display:900");
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-dark: black;
+    --foreground: var(--clr-dark);
+    --background: var(--clr-light);
+}
+
+.darkmode {
+    --clr-dark: #656973;
+    --foreground: var(--clr-light);
+    --background: var(--clr-dark);
+}
+
+body {
+    background: var(--background);
+    font-family: var(--ff-body);
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.dark-mode-toggle {
+    right: 1em;
+    color: var(--foreground);
+    background-color: var(--background);
+    border: 2px solid currentColor;
+    padding: 0.1, 0.1, 0.1, 0.1;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+}
